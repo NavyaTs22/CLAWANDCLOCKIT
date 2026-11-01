@@ -1,0 +1,15 @@
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Large Model Files & Outputs (Optional: keep models local or use DVC/LFS if too large)
+models/*.pkl
+*.csv
+*.png
+.DS_Store
